@@ -1,10 +1,11 @@
 public class App {
     public static void main(String[] args) {
-        BankAccount account = new BankAccount(50);
-        System.out.println(account.getBalance());
-        account.deposit(70);
-        System.out.println(account.getBalance());
-        account.withdraw(30);
-        System.out.println(account.getBalance());
+        Animal myDog = new Dog("Buddy");
+        Animal myCat = new Cat("Kitty");
+        System.out.println(myDog.name);
+        System.out.println(myCat.name);
+        // Đa hình: cùng một phương thức nhưng hành vi khác nhau
+        myDog.makeSound();
+        myCat.makeSound();
     }
 }
