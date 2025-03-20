@@ -1,11 +1,11 @@
 public class App {
     public static void main(String[] args) {
-        Animal myDog = new Dog("Buddy");
-        Animal myCat = new Cat("Kitty");
-        System.out.println(myDog.name);
-        System.out.println(myCat.name);
-        // Đa hình: cùng một phương thức nhưng hành vi khác nhau
-        myDog.makeSound();
-        myCat.makeSound();
+        // Tạo đối tượng thanh toán bằng thẻ tín dụng
+        Payment creditCard = new CreditCardPayment("1234-5678-9012-3456");
+        creditCard.pay(100.50);
+
+        // Tạo đối tượng thanh toán bằng PayPal
+        Payment paypal = new PayPalPayment("user@example.com");
+        paypal.pay(75.25);
     }
 }

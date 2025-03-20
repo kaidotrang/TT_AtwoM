@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0ddabddd-7eca-464c-8f86-efab1c6a0abf" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
